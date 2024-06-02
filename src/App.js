@@ -1,11 +1,12 @@
 import "./App.css";
+import Hamburger from "./Components/Hamburger";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <>
-      <div className="text-6xl">
-        hello worlds buh i will start building soon
-      </div>
+      <Navbar />
+      <Hamburger />
     </>
   );
 }
