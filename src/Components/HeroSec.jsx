@@ -1,6 +1,15 @@
 import React from 'react'
+import cv from '../Assets/MyCV.pdf'
 import Mypic from '../Assets/Mypic.jpg'
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
+
+
 const HeroSec = () => {
+    const handleDownload = () =>  {
+        window.open(cv, '_blank');
+
+    }
   return (
     <>
         <div className="portfolio">
@@ -13,9 +22,31 @@ const HeroSec = () => {
                 </div>
                 <div className="title">RamDev</div>
                 <div className="sec-text-pp">FrontEnd Developer</div>
-                <div className="btn-container">
-                    <button className='btn-color bg-red-50' onClick={window.open('../Assets/CV.pdf')}>Download CV</button>
+                <div className="btn-Cv">
+                    <button className="btn-color bg-red-50" onClick={handleDownload}>
+                    Download CV
+                    </button>               
                 </div>
+                {/* remember to make a link to the contact section when the btn is clicked */}
+                <div className="btn-Info">
+                    <button className="btn-color bg-red-50" >
+                    Contact Info
+                    </button>               
+                </div>
+                <div className="container-socials">
+                    <div className="linkedin">
+                        <a href="http://">
+                        <FaLinkedin />
+                        </a>
+                    </div>
+                    <div className="github">
+                        <a href="http://"> 
+                        <FaSquareGithub />
+                        </a>
+                    </div>
+                                  
+                </div>
+                
             </div>
         </div>
     </>
