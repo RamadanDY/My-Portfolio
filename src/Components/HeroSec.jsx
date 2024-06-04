@@ -3,6 +3,7 @@ import cv from '../Assets/MyCV.pdf'
 import Mypic from '../Assets/Mypic.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
+import '../Components/'
 
 
 const HeroSec = () => {
@@ -12,7 +13,7 @@ const HeroSec = () => {
     }
   return (
     <>
-        <div className="portfolio">
+        <div className="portfolio flex flex-row justify-center h-90">
             <div className="pic-container">
             <img src={Mypic} alt=""  className='h-92  w-40' />
             </div>
@@ -35,12 +36,12 @@ const HeroSec = () => {
                 </div>
                 <div className="container-socials">
                     <div className="linkedin">
-                        <a href="http://">
+                        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
                         <FaLinkedin />
                         </a>
                     </div>
                     <div className="github">
-                        <a href="http://"> 
+                        <a href="https://github.com/RamadanDY"> 
                         <FaSquareGithub />
                         </a>
                     </div>
