@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="logo">RamDev</div>
         <div className="humberger-menu">
             <div className="humberger-icon text-gray-400 " onClick={toggleMenu} >
-                {isOpen ? <FaTimes /> : <FaBars />} 
+                {isOpen ? <FaTimes size={30} /> : <FaBars size={30}/>} 
             </div>
             <div className="menu-links list-none" style={{ display: isOpen ? 'block' : 'none' }}>
                 <div>
