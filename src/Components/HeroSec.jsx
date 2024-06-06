@@ -15,7 +15,7 @@ const HeroSec = () => {
     <>
         <div className="portfolio flex flex-row items-center justify-center  gap-x-72 ">
             <div className="pic-container">
-                <img src={Mypic} alt=""  className='h-92  w-40' />
+                <img src={Mypic} alt=""  className='h-92  w-40 rounded-full ' />
             </div>
             <div className="sec-text flex flex-col gap-4">
                 <div className="wrapper-hero flex flex-col ">
@@ -23,7 +23,7 @@ const HeroSec = () => {
                             Hello, I'm
                         </div>
                         <div className="title text-4xl flex justify-center font-serif ">RamDev</div>
-                    <div className="sec-text-pp text-2xl">FrontEnd Developer</div>
+                    <div className="sec-text-pp text-2xl flex justify-center">FrontEnd Developer</div>
                 </div>
                 <div className="btn-wrapper flex flex-row  gap-3">
                     <div className="btn-Cv">
