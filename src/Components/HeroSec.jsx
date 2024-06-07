@@ -27,13 +27,13 @@ const HeroSec = () => {
                 </div>
                 <div className="btn-wrapper flex flex-row  gap-3">
                     <div className="btn-Cv">
-                        <button className="btn-color font-mono bg-red-50 py-4 px-2" onClick={handleDownload}>
+                        <button className="btn-color2 font-mono  bg-white text-black  py-4 px-2" onClick={handleDownload}>
                         Download CV
                         </button>               
                     </div>
                     {/* remember to make a link to the contact section when the btn is clicked */}
                     <div className="btn-Info">
-                        <button className="btn-color bg-red-50 font-mono py-4 px-2" >
+                        <button className="btn-color1 bg-black text-white font-mono py-4 px-2" >
                         Contact Info
                         </button>               
                     </div>

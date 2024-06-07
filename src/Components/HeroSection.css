@@ -1,3 +1,15 @@
 .portfolio {
   height: 450px;
 }
+
+.btn-color1 {
+  color: white; /* Text color */
+  border-radius: 12px;
+  /* border: 2px solid white; */
+}
+
+.btn-color2 {
+  color: black; /* Text color */
+  border-radius: 12px;
+  border: 2px solid black;
+}
