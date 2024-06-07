@@ -15,7 +15,7 @@ const HeroSec = () => {
     <>
         <div className="portfolio flex flex-row items-center justify-center  gap-x-72 ">
             <div className="pic-container">
-                <img src={Mypic} alt=""  className='h-92  w-40 rounded-full ' />
+                <img src={Mypic} alt=""  className='h-92  w-40 rounded-full object-contain ' />
             </div>
             <div className="sec-text flex flex-col gap-4">
                 <div className="wrapper-hero flex flex-col ">
@@ -33,7 +33,7 @@ const HeroSec = () => {
                     </div>
                     {/* remember to make a link to the contact section when the btn is clicked */}
                     <div className="btn-Info">
-                        <button className="btn-color1 bg-black text-white font-mono py-4 px-2" >
+                        <button className="btn-color1 bg-black text-white font-mono py-4 px-2 " >
                         Contact Info
                         </button>               
                     </div>
