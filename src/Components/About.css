@@ -1,0 +1,19 @@
+.img-wrapper {
+  border-radius: 34% 66% 15% 85% / 59% 8% 92% 41%;
+  transition: border-radius 500ms ease-in-out;
+}
+
+.img-wrapper:hover {
+  pointer: cursor;
+  border-radius: 50%;
+}
+
+.tex-wra {
+  color: black; /* Text color */
+  border-radius: 12px;
+  border: 2px solid black;
+}
+.About-wrapper {
+  height: 100vh;
+  position: relative;
+}
