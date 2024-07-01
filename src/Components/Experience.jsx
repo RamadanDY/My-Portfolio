@@ -4,7 +4,7 @@ import { PiSealCheckFill } from "react-icons/pi";
 
 const Experience = () => {
   return (
-    <div className='experience-wrapper  '>
+    <div className='experience-wrapper'>
       <div className="experience-wrap">
         <div className="ex-text flex flex-col justify-center items-center">
           <div className="text">Explore My</div>

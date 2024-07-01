@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import HeroSec from "./Components/HeroSec";
 import About from "./Components/About";
 import Experience from "./Components/Experience";
+import Project from "./Components/Project";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSec />
       <About />
       <Experience />
+      <Project />
     </>
   );
 }
