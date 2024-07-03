@@ -15,26 +15,26 @@ const Project = () => {
             <div className="details-container  flex flex-row justify-center align-center">
                 <div className="card1 flex flex-col justify-center items-center">              
                     <img src={pic1} alt="" srcset="" className='img '/>            
-                    <p className='mt-5'>Grand Hotel</p>
+                    <p className='text-black mt-4 font-bold text-2xl'>Project One</p>
                     <div className="btn mt-9 ">
-                        <button type="button">Demo</button>  
-                        <button type="button">GitHub</button> 
+                        <button className='bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full' type="button">Demo</button>  
+                        <button className='bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full' type="button">Grand Hotel</button> 
                     </div>                    
                 </div>
-                <div className="card2  flex flex-col justify-center items-center ">                
+                <div className="card2  flex text-black flex-col justify-center items-center ">                
                     <img src={pic2} alt="" srcset="" className='img'/>   
-                    <p className='mt-5'>Recipie Website</p>
+                    <p className='text-name mt-4 text-black font-bold text-2xl'>Project Two</p>
                     <div className="btn mt-9 ">
-                        <button type="button">Demo</button>  
-                        <button type="button">GitHub</button> 
+                        <button className='bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full' type="button">Demo</button>  
+                        <button className='bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full' type="button">Recipe</button> 
                     </div>                      
                 </div>
                 <div className="card3  flex flex-col justify-center items-center">              
                     <img src={pic3} alt="" srcset="" className='img'/> 
-                    <p className='mt-5'>Weather</p>  
-                    <div className="btn mt-9 ">
-                        <button type="button">Demo</button>  
-                        <button type="button">GitHub</button> 
+                    <p className='text-name mt-4 text-black font-bold text-2xl'>Project Three</p>  
+                    <div className="btn mt-9  ">
+                        <button className='bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full' type="button">Demo</button>  
+                        <button className='bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full' type="button">Loopstudios</button> 
                     </div>                           
                 </div>
             </div>

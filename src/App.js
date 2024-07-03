@@ -4,6 +4,7 @@ import HeroSec from "./Components/HeroSec";
 import About from "./Components/About";
 import Experience from "./Components/Experience";
 import Project from "./Components/Project";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Experience />
       <Project />
+      <Contact />
     </>
   );
 }

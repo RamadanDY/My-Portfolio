@@ -1,0 +1,10 @@
+.Contact-wrapper {
+  /* background: red; */
+  height: 85vh;
+  width: 100%;
+}
+
+.Info {
+  border: 0.3px solid black;
+  border-radius: 25px;
+}
