@@ -13,3 +13,10 @@
   border-radius: 12px;
   border: 2px solid black;
 }
+
+@media screen and (max-width: 910px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+  }
+}

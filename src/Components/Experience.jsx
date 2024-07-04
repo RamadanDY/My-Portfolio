@@ -7,7 +7,7 @@ const Experience = () => {
     <div className='experience-wrapper'>
       <div className="experience-wrap">
         <div className="ex-text flex flex-col justify-center items-center">
-          <div className="text">Explore My</div>
+          <div className="text max-[910px]:mt-3 max-[910px]:bg-sky-300">Explore My</div>
           <div className="sub-text text-3xl tracking-widest">Experience</div>
           <div className="front ">
             Tech Stack 

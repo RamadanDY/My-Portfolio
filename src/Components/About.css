@@ -14,6 +14,33 @@
   border: 2px solid black;
 }
 .About-wrapper {
-  height: 100vh;
-  position: relative;
+  height: 92vh;
+  /* position: relative; */
+}
+
+@media screen and (max-width: 910px) {
+  .About-wrapper {
+    background-color: red;
+    height-bottom: 90vh;
+    padding-bottom: 2px;
+    /* gap: 3; */
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .head {
+    padding-bottom: 2px;
+    margin-top: 0px;
+  }
+  .text {
+  }
+  .img-wrapper {
+    /* width: full; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 100px; */
+  }
 }
