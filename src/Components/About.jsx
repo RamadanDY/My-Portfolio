@@ -9,7 +9,7 @@ const About = () => {
     <>
       <div className=' About-wrapper flex flex-col justify-center items-center  '>
         <div className="head pb-12 pt-8">
-          <h3 className=' flex  justify-center items-center  pb-5 '>Get To Know More 🤖</h3>
+          <h3 className=' flex  justify-center items-center text-4xl pb-44 '>Get To Know More 🤖</h3>
           <h3 className=' flex  justify-center items-center text-4xl text-gray-500 gap  font-mono'>About Me</h3>
         </div>
         <div className="  wrapper flex flex-col md:flex-row md:h-80vh gap-60 max-w-4xl mx-auto">
@@ -20,18 +20,17 @@ const About = () => {
             <div className="tex-wra p-3 experience flex flex-col justify-center items-center">
               <GrUserExpert size={30} />
               <div className="text-wrap flex flex-col  justify-center items-center border-slate-950 red">
-                <h3>Experience</h3>
+                <h3 className='text-green-600'>Experience</h3>
                 <h3>2+ years</h3>
-                <h3>Front-End Developer</h3>
+                <h3>BackEnd Developer</h3>
               </div>
             </div>
-            <div className="tex-wra education flex flex-col justify-center items-center">
+            <div className="tex-wra pb-6 education flex flex-col justify-center items-center">
               <ImBook size={30} />
               <div className="t-wrap flex flex-col justify-center items-center">
-                <h3>Education</h3>
-                <h3>B.Sc Bachelors Degree</h3>
-                <h3>M.Sc Information Technology</h3>
-              </div>
+                <h3 className='text-green-600'>Education</h3>
+                <h3>BSc Information Technology</h3>
+               </div>
             </div>
             {/* <div className="text-wrapper col-span-2 flex flex-col justify-center items-center">
               <p>The choice of scheduling algorithm depends on factors <br />

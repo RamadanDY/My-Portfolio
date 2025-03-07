@@ -31,7 +31,7 @@ const HeroSec = () => {
                     <Cursor />
                 </div>
                 <div className="title text-4xl flex justify-center font-serif">RamDev</div>
-                <div className="sec-text-pp text-2xl flex justify-center">FrontEnd Developer</div>
+                <div className="sec-text-pp text-2xl flex justify-center">BackEnd Developer</div>
                 </div>
                 <div className="btn-wrapper flex flex-row gap-3">
                 <div className="btn-Cv">
