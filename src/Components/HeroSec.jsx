@@ -17,7 +17,7 @@ const HeroSec = () => {
   };
 
   return (
-    <div className="portfolio flex flex-row items-center justify-center gap-x-72 max-[910px]:bg-sky-700">
+    <div className="portfolio flex flex-row items-center justify-center gap-x-72  ">
         <div className="pic-container">
             <img src={Mypic} alt="Profile" className="h-92 w-40 rounded-full " />
         </div>

@@ -20,7 +20,6 @@
 
 @media screen and (max-width: 910px) {
   .About-wrapper {
-    background-color: red;
     height-bottom: 90vh;
     padding-bottom: 2px;
     /* gap: 3; */

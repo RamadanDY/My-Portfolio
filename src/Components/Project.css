@@ -11,7 +11,7 @@
 }
 
 .cards {
-  height: 55vh;
+  min-height: auto; /* Allow height to adjust based on content */
 }
 
 .img {
