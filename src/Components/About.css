@@ -39,7 +39,6 @@
   .text {
   }
   .img-wrapper {
-    /* width: full; */
     display: flex;
     justify-content: center;
     align-items: center;

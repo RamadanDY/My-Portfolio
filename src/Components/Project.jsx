@@ -12,7 +12,7 @@ const Project = () => {
             <p className=' mb-8 text-4xl'>My Projects</p>
         </div>
         <div className="cards">
-            <div className="details-container  flex flex-row justify-center align-center">
+            <div className="details-container flex flex-row justify-center align-center">
                 <div className="card1 flex flex-col justify-center items-center">              
                     <img src={pic1} alt="" srcset="" className='img '/>            
                     <p className='text-black mt-4 font-bold text-2xl'>Project One</p>
@@ -21,7 +21,7 @@ const Project = () => {
                         <button className='bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full' type="button">Grand Hotel</button> 
                     </div>                    
                 </div>
-                <div className="card2  flex text-black flex-col justify-center items-center ">                
+                <div className="card2 flex text-black flex-col justify-center items-center ">                
                     <img src={pic2} alt="" srcset="" className='img'/>   
                     <p className='text-name mt-4 text-black font-bold text-2xl'>Project Two</p>
                     <div className="btn mt-9 ">
@@ -29,7 +29,7 @@ const Project = () => {
                         <button className='bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full' type="button">Recipe</button> 
                     </div>                      
                 </div>
-                <div className="card3  flex flex-col justify-center items-center">              
+                <div className="card3 flex flex-col justify-center items-center">              
                     <img src={pic3} alt="" srcset="" className='img'/> 
                     <p className='text-name mt-4 text-black font-bold text-2xl'>Project Three</p>  
                     <div className="btn mt-9  ">

@@ -1,19 +1,11 @@
-.card1 {
-  color: black; /* Text color */
-  border-radius: 12px;
-  border: 2px solid black;
-  /* height: 90%;
-  width: 80%; */
+.Project-wrapper {
+  margin-bottom: 4rem; /* Add margin to the bottom */
 }
-.card2 {
-  color: black; /* Text color */
-  border-radius: 12px;
-  border: 2px solid black;
-  /* height: 90%;
-  width: 80%; */
-}
+
+.card1,
+.card2,
 .card3 {
-  color: black; /* Text color */
+  color: black;
   border-radius: 12px;
   border: 2px solid black;
 }
@@ -34,17 +26,35 @@
 }
 
 button {
-  color: black; /* Text color */
+  color: black;
   border-radius: 12px;
   margin: 10px;
   padding: 17px;
 }
 
+/* Media query for screens with a maximum width of 910px */
 @media screen and (max-width: 910px) {
   .details-container {
-    height: fill;
-    background-color: gray;
+    height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Project-wrapper {
+    margin-bottom: 6rem; /* Increase margin for smaller screens */
   }
 }

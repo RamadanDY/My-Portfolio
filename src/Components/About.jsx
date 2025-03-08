@@ -9,14 +9,14 @@ const About = () => {
     <>
       <div className=' About-wrapper flex flex-col justify-center items-center  '>
         <div className="head pb-12 pt-8">
-          <h3 className=' flex  justify-center items-center text-4xl pb-44 '>Get To Know More 🤖</h3>
+          <h3 className=' flex  justify-center items-center text-4xl pb-36 '>Get To Know More 🤖</h3>
           <h3 className=' flex  justify-center items-center text-4xl text-gray-500 gap  font-mono'>About Me</h3>
         </div>
         <div className="  wrapper flex flex-col md:flex-row md:h-80vh gap-60 max-w-4xl mx-auto">
           <div className="img-wrapper h-92 w-40 pt-3 pr-5">
             <img src={Mypic} alt="Profile" className="rounded-full" />
           </div>
-          <div className=" text grid grid-cols-2 gap-3">
+          <div className=" text grid grid-cols-2 gap-14">
             <div className="tex-wra p-3 experience flex flex-col justify-center items-center">
               <GrUserExpert size={30} />
               <div className="text-wrap flex flex-col  justify-center items-center border-slate-950 red">
@@ -25,11 +25,12 @@ const About = () => {
                 <h3>BackEnd Developer</h3>
               </div>
             </div>
-            <div className="tex-wra pb-6 education flex flex-col justify-center items-center">
+            <div className="tex-wra  p-3     education flex flex-col justify-center items-center">
               <ImBook size={30} />
-              <div className="t-wrap flex flex-col justify-center items-center">
+              <div className="t-wrap  flex flex-col justify-center items-center">
                 <h3 className='text-green-600'>Education</h3>
-                <h3>BSc Information Technology</h3>
+                <h3 className=''>BSc </h3>
+                <h3 className=''>Information Technology</h3>
                </div>
             </div>
             {/* <div className="text-wrapper col-span-2 flex flex-col justify-center items-center">

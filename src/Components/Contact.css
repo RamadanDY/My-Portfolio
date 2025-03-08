@@ -1,4 +1,27 @@
+.Contact {
+  margin-top: 4rem; /* Add margin to the top */
+}
+
 .Info {
   border: 0.3px solid black;
   border-radius: 25px;
+}
+
+/* Media query for screens with a maximum width of 910px */
+@media screen and (max-width: 910px) {
+  .Contact {
+    margin-top: 6rem; /* Increase margin for smaller screens */
+  }
+
+  .Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .Info > div {
+    width: 100%;
+    text-align: center;
+  }
 }
